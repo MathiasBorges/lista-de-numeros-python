@@ -78,22 +78,22 @@
 <h2>Arquivo teste.py</h2>
 <ol>
     <li>
-        O arquivo <code>teste.py</code> serve para testar a função "analisar_lista". Nesse arquivo, uma lista de números chamada <code>numeros</code> é criada:
+        O arquivo <code>teste.py</code> serve para testar a função "analisar_lista". Nesse arquivo, criei uma lista de números chamada <code>numeros</code>:
         <pre>
             numeros = [10, 23, 5, 8, 12, 33, 42, 7, 19, 28, 3, 16, 9, 50, 21]
         </pre>
     </li>
     <li>
-        Em seguida, a função "analisar_lista" é importada do arquivo <code>main.py</code> em:
+        Depois, a função "analisar_lista" é importada do arquivo <code>main.py</code> em:
         <pre>
             from main import analisar_lista as al
         </pre>
     </li>
     <li>
-        Finalmente, a função é chamada com a lista <code>numeros</code> como argumento e o resultado é impresso:
+        Por fim, chamao a função com a lista <code>numeros</code> como argumento e o resultado é impresso:
         <pre>
             print(al(numeros))
         </pre>
-        O código executa todas as operações de análise e exibe as informações solicitadas sobre a lista de números.
+        O código executa todas as operações de análise e exibe as informações sobre a lista de números.
     </li>
 </ol>
